@@ -1,10 +1,15 @@
 # HTML Images
 
-## Problem Statement
+## Learning Goals
 
-Images are absolutely critical to making appealing and engaging websites. Can
-you imagine the web without them? No cat memes. No animated dancing bananas! No
-_Instagram_, at all. The internet would be a pretty boring and sad place!
+- Identify how to add images to HTML with the `img` tag
+- Create an `img` tag
+
+## Introduction
+
+Images are critical to making appealing and engaging websites. Can you imagine
+the web without them? No cat memes. No animated dancing bananas! No _Instagram_,
+at all. The internet would be a pretty boring and sad place!
 
 ![sad meme](https://s3.amazonaws.com/ironboard-learn/sad_meme.jpg)
 
@@ -12,13 +17,7 @@ In this lesson, we will be discussing how to include images in your HTML, along
 with some important attributes of the tag. With images, you can make your web
 pages much more engaging and visually appealing.
 
-## Objective
-
-1. Learn how to add images to HTML using the `img` tag
-2. Practice using the `img` tag and some of its attributes, `src`, `alt` and `title`
-3. Reinforce our understanding of the image tag through creation
-
-## Learn How To Add Images To HTML Using The `img` Tag
+## Identify How to Add Images to HTML with the `img` Tag
 
 Images are inserted into HTML using the `img` tag. The tag can display a variety
 of image types, including animated GIFs, bitmaps and vector graphics, though
@@ -30,9 +29,7 @@ Instead, the relevant information is stored in attributes within the tag itself.
 There are two main attributes, `src`, the _source_ of the image, and `alt`, the
 _alternate_ text.
 
-## Practice using the `img` tag and some of its attributes, `src`, `alt` and `title`
-
-### Introduce the Image Source Attribute
+### The Image Source Attribute
 
 The `src` attribute provides the relative path or URL to the image file we want
 to display.  The image file can be local, say, for instance, if you're
@@ -54,7 +51,7 @@ full URL as the source:
 The `src` attribute always necessary, as without it, the `img` tag would have
 nothing to display.
 
-### Introduce the Image Alt Attribute
+### IThe Image Alt Attribute
 
 The `alt` attribute contains text relevant to the image we're displaying, and
 will appear in its place if the image fails to load.
@@ -74,7 +71,7 @@ To include an `alt` attribute, add it in along with the `src` attribute:
 <img src="https://i.imgur.com/H1qsYEl.png" alt="comedic crow gets wholesome support">
 ```
 
-### Introduce the Image Title Attribute
+### The Image Title Attribute
 
 One additional attribute that can be useful is the `title`. Content added to
 this attribute will display when we hover over the image with our mouse. If we
@@ -91,11 +88,11 @@ appear saying 'We're here to help you!'
 The `title` attribute isn't necessary and is often left out, but can be a nice
 detail to include.
 
-## Reinforce Our Understanding Of The Image Tag Through Creation
+## Create an `img` Tag
 
 Its time to practice creating some images! For this challenge, feel free to use
 any images you'd like - the tests are looking for the correct tag and
-attributes, not the content.  If you're not sure what to use, feel free to use
+attributes, not the content. If you're not sure what to use, feel free to use
 the following URL as your source:
 
 https://s3.amazonaws.com/ironboard-learn/lion.jpg
@@ -114,8 +111,6 @@ Run `learn` and read the tests as you go.  When you've passed all the tests, run
 ## Conclusion
 
 With images, we can fill our web pages with visual content in addition to text.
-Brand logos, animated instructional guides, personal artwork and photography, or
+Brand logos, animated instructional guides, personal artwork, and photography, or
 pictures of you and your friends - you now have the ability to create visually
 appealing content of _any type!_
-
-<p data-visibility='hidden'>View <a href='https://learn.co/lessons/html-images' title='HTML Images'>HTML Images</a> on Learn.co and start learning to code for free.</p>
